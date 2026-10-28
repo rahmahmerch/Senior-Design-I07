@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"base"
+	],
+	"InstallScripts" : 
+	[
+		"/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

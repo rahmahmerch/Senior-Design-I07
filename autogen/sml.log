@@ -1,0 +1,16 @@
+2026-10-28 13:25:06 - [INFO] (compiler.py:85): sml.log created by aiml/tool/compiler/compiler.py (Studio/SLC adapter).
+2026-10-28 13:25:06 - [INFO] (compiler.py:88): sml appends below.
+2026-10-28 13:25:06 - [DEBUG] (compiler.py:90): Input Directory: /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite
+2026-10-28 13:25:06 - [INFO] (compiler.py:91): Output Directory: /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/output
+2026-10-28 13:25:06 - [INFO] (compiler.py:92): Part Number: efr32mg26b510f3200im68
+2026-10-28 13:25:06 - [DEBUG] (compiler.py:66): found sml executable: sml_darwin_arm64
+2026-10-28 13:25:06 - [DEBUG] (compiler.py:96): got sml executable: /Users/idowon/.silabs/slt/installs/conan/p/aiml41a3bfdb2d14e/p/tool/compiler/sml_darwin_arm64
+2026-10-28 13:25:06 - [DEBUG] (compiler.py:104): processing /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/magic_wand_model.mlconf file
+2026-10-28 13:25:07 - [INFO] (compiler_cli.py:230): compile: streaming log file /private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/output/sml.log
+2026-10-28 13:25:07 - [INFO] (compiler_cli_config.py:54): Using compiler config from --config: /private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/magic_wand_model.mlconf
+2026-10-28 13:25:07 - [INFO] (compiler_cli_config.py:88): use_config: compile flags do not override merged YAML/config (omit --use-config to apply compile overrides).
+2026-10-28 13:25:09 - [INFO] (platform.py:125): compile: normalized platform 'efr32mg26b510f3200im68' to 'efr32xg26'
+2026-10-28 13:25:10 - [INFO] (compile_tflite_model.py:180): Total compilation time: 0.99 seconds
+2026-10-28 13:25:10 - [INFO] (compiler_cli.py:296): compile: success
+2026-10-28 13:25:10 - [INFO] (compiler_cli.py:310): compile: wrote sl_ml_model_* helper template under /private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/output
+2026-10-28 13:25:10 - [DEBUG] (compiler.py:120): sml executed with return code 0

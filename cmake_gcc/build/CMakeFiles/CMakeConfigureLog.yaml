@@ -1,0 +1,2003 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.local/bin/uname"
+      - "/Users/idowon/anaconda3/bin/uname"
+      - "/Users/idowon/anaconda3/condabin/uname"
+      - "/opt/local/bin/uname"
+      - "/opt/local/sbin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Darwin - 25.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/4.4.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-dlltool"
+      - "/Users/idowon/.local/bin/arm-none-eabi-dlltool"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-dlltool"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-dlltool"
+      - "/opt/local/bin/arm-none-eabi-dlltool"
+      - "/opt/local/sbin/arm-none-eabi-dlltool"
+      - "/opt/homebrew/bin/arm-none-eabi-dlltool"
+      - "/opt/homebrew/sbin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/sbin/arm-none-eabi-dlltool"
+      - "/sbin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-dlltool"
+      - "/pkg/env/global/bin/arm-none-eabi-dlltool"
+      - "/Library/Apple/usr/bin/arm-none-eabi-dlltool"
+      - "/Library/TeX/texbin/arm-none-eabi-dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-dlltool"
+      - "/usr/local/share/dotnet/arm-none-eabi-dlltool"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-dlltool"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-dlltool"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/dlltool"
+      - "/Users/idowon/.local/bin/dlltool"
+      - "/Users/idowon/anaconda3/bin/dlltool"
+      - "/Users/idowon/anaconda3/condabin/dlltool"
+      - "/opt/local/bin/dlltool"
+      - "/opt/local/sbin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/Users/idowon/.dotnet/tools/dlltool"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-tapi"
+      - "/Users/idowon/.local/bin/arm-none-eabi-tapi"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-tapi"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-tapi"
+      - "/opt/local/bin/arm-none-eabi-tapi"
+      - "/opt/local/sbin/arm-none-eabi-tapi"
+      - "/opt/homebrew/bin/arm-none-eabi-tapi"
+      - "/opt/homebrew/sbin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/sbin/arm-none-eabi-tapi"
+      - "/sbin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-tapi"
+      - "/pkg/env/global/bin/arm-none-eabi-tapi"
+      - "/Library/Apple/usr/bin/arm-none-eabi-tapi"
+      - "/Library/TeX/texbin/arm-none-eabi-tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-tapi"
+      - "/usr/local/share/dotnet/arm-none-eabi-tapi"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-tapi"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-tapi"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/tapi"
+      - "/Users/idowon/.local/bin/tapi"
+      - "/Users/idowon/anaconda3/bin/tapi"
+      - "/Users/idowon/anaconda3/condabin/tapi"
+      - "/opt/local/bin/tapi"
+      - "/opt/local/sbin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/Users/idowon/.dotnet/tools/tapi"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-14.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-14"
+      - "/sbin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/sbin/arm-none-eabi-gcc-ar14"
+      - "/sbin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar14"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib14"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/4.4.5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-14.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-14"
+      - "/sbin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-14"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/sbin/arm-none-eabi-gcc-ar14"
+      - "/sbin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar14"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib14"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib14"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib14"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 14.2.1 20241119
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ar-"
+      - "/opt/local/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ar-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ar-"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ar-"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/"
+      - "/Users/idowon/.local/bin/"
+      - "/Users/idowon/anaconda3/bin/"
+      - "/Users/idowon/anaconda3/condabin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/idowon/.dotnet/tools/"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/"
+    searched_directories:
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/anaconda3/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/anaconda3/condabin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/local/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/pkg/env/global/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-"
+      - "/Applications/VMware Fusion.app/Contents/Public/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/.dotnet/tools/arm-none-eabi-gcc-ranlib-"
+      - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin/arm-none-eabi-gcc-ranlib-"
+    found: "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/idowon/.local/bin"
+        - "/Users/idowon/anaconda3/bin"
+        - "/Users/idowon/anaconda3/condabin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+        - "/Users/idowon/Desktop/PassionProject/CompArch/MIT_ConstructiveCA/bsc/inst/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-XEW28F"
+      binary: "/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-XEW28F"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-XEW28F'
+        
+        Run Build Command(s): /Users/idowon/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_2b4b9
+        [1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install --with-gmp=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpc=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-isl=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-zstd=/opt/homebrew/opt/zstd/ --with-pkgversion='Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/'
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b4b9.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//ccXXMkpl.s
+        GNU C17 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) version 14.2.1 20241119 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.3.9.4), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"
+        ignoring nonexistent directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 6f2516680d3baaf1f9e8a95d5080bebe
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/'
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//ccXXMkpl.s
+        GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 2.43.1.20241119
+        COMPILER_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_2b4b9.a && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-ar qc Debug/libcmTC_2b4b9.a  @CMakeFiles/cmTC_2b4b9.Debug.rsp && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_2b4b9.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_2b4b9.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include]
+        implicit include dirs: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include-fixed;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-XEW28F']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/idowon/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_2b4b9]
+        link line: [[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c] ==> linker [[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc]
+        ignore line: [[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install --with-gmp=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpc=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-isl=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-zstd=/opt/homebrew/opt/zstd/ --with-pkgversion='Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/']
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b4b9.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//ccXXMkpl.s]
+        ignore line: [GNU C17 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) version 14.2.1 20241119 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.3.9.4)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 6f2516680d3baaf1f9e8a95d5080bebe]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/']
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//ccXXMkpl.s]
+        ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 2.43.1.20241119]
+        ignore line: [COMPILER_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2b4b9.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_2b4b9.a && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-ar qc Debug/libcmTC_2b4b9.a  @CMakeFiles/cmTC_2b4b9.Debug.rsp && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_2b4b9.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_2b4b9.a && :]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': [1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nktcmL"
+      binary: "/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nktcmL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nktcmL'
+        
+        Run Build Command(s): /Users/idowon/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_f81d1
+        [1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install --with-gmp=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpc=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-isl=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-zstd=/opt/homebrew/opt/zstd/ --with-pkgversion='Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/'
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f81d1.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//cctfG5dt.s
+        GNU C++17 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) version 14.2.1 20241119 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.3.9.4), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"
+        ignoring nonexistent directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 2cb1e03d83b4d14d4ad5d4af75de3c46
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/'
+         /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//cctfG5dt.s
+        GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 2.43.1.20241119
+        COMPILER_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_f81d1.a && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-ar qc Debug/libcmTC_f81d1.a  @CMakeFiles/cmTC_f81d1.Debug.rsp && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_f81d1.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_f81d1.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+          add: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1/backward]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        collapse include dir [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include] ==> [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include]
+        implicit include dirs: [/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1/arm-none-eabi;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include/c++/14.2.1/backward;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/lib/gcc/arm-none-eabi/14.2.1/include-fixed;/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nktcmL']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/idowon/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_f81d1]
+        ignore line: [[1/2] /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install --with-gmp=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-mpc=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --with-isl=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/ParallelsData/jenkins-worker/workspace/test-build-armgcc-toolchain/armgcc-rebuild-macos-arm64/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-zstd=/opt/homebrew/opt/zstd/ --with-pkgversion='Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/']
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f81d1.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//cctfG5dt.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) version 14.2.1 20241119 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 15.0.0 (clang-1500.3.9.4)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/arm-none-eabi]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include/c++/14.2.1/backward]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/include-fixed]
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2cb1e03d83b4d14d4ad5d4af75de3c46]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/']
+        ignore line: [ /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T//cctfG5dt.s]
+        ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.rel1 (Build silabs-14.2.rel1-b66)) 2.43.1.20241119]
+        ignore line: [COMPILER_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../libexec/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f81d1.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_f81d1.a && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-ar qc Debug/libcmTC_f81d1.a  @CMakeFiles/cmTC_f81d1.Debug.rsp && /Users/idowon/.silabs/slt/installs/conan/p/gcc-a92619eca33962/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_f81d1.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_f81d1.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

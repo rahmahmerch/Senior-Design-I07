@@ -1,0 +1,4 @@
+/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/slc.dir
+/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/DEMO_aiml_soc_magic_wand_efr32.dir
+/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/edit_cache.dir
+/Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+****************************************************************************************************
+Processing step 8 of 8
+codegen: codegen: Generate "C++" source code from the compiled model
+Adding buffer: PrimaryTensorArena: size=8.5k section=.bss
+Adding buffer: PagingBuffer: size=32.0k section=.bss
+Adding "const" keyword to model data variable since it's in the .rodata data section
+Destination directory=/private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/temp_6b2eb24da5164927a48629afc163b752/codegen
+Cleaning destination directory=/private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/temp_6b2eb24da5164927a48629afc163b752/codegen
+Using the following "no-fallback" map:
+QUANTIZE - False
+CONV_2D - True
+MAX_POOL_2D - True
+RESHAPE - False
+FULLY_CONNECTED - True
+SOFTMAX - False
+DEQUANTIZE - False
+Stripped 1.4k of strings from the .tflite model
+Generated /private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/temp_6b2eb24da5164927a48629afc163b752/codegen/magic_wand_model_generated.hpp
+from /private/var/folders/2d/7_jvcy711tbg2qlc11w_gz3c0000gn/T/apack_aiml.mvp-compiler12208642078388075502/data/tflite/magic_wand_model.tflite
+Finished processing step 8 of 8 in 0.02 seconds
