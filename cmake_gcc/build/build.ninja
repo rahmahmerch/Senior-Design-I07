@@ -5,15 +5,15 @@
 
 include CMakeFiles/impl-base.ninja
 
-build DEMO_aiml_soc_magic_wand_efr32: phony base/DEMO_aiml_soc_magic_wand_efr32.out
+build IMU_Pen: phony base/IMU_Pen.out
 
-build DEMO_aiml_soc_magic_wand_efr32.out: phony base/DEMO_aiml_soc_magic_wand_efr32.out
+build IMU_Pen.out: phony base/IMU_Pen.out
 
 build slc: phony slc$:base
 
 
 #############################################
-# Folder: /Users/idowon/SimplicityStudio/v6_workspace/DEMO_aiml_soc_magic_wand_efr32/cmake_gcc/build
+# Folder: /Users/idowon/SimplicityStudio/v6_workspace/IMU_Pen/cmake_gcc/build
 
 build all: phony all$:base
 

@@ -8,7 +8,7 @@
     "configurePresets": [
       {
         "name": "project",
-        "displayName": "Configure DEMO_aiml_soc_magic_wand_efr32",
+        "displayName": "Configure IMU_Pen",
         "generator": "Ninja Multi-Config",
         "binaryDir": "${sourceDir}/build",
         "toolchainFile": "${sourceDir}/toolchain.cmake",
@@ -20,10 +20,10 @@
     "buildPresets": [
       {
         "name": "default_config",
-        "displayName": "Build DEMO_aiml_soc_magic_wand_efr32",
+        "displayName": "Build IMU_Pen",
         "configurePreset": "project",
         "configuration": "base",
-        "targets": ["DEMO_aiml_soc_magic_wand_efr32"]
+        "targets": ["IMU_Pen"]
       }
     ],
     "workflowPresets": [

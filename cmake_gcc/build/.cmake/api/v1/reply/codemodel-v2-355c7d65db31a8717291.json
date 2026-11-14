@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-base-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "base",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IMU_Pen",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "IMU_Pen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IMU_Pen-base-5389947733f0cb03924d.json",
+					"name" : "IMU_Pen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slc-base-cd2a180d9488eb32a936.json",
+					"name" : "slc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/idowon/SimplicityStudio/v6_workspace/IMU_Pen/cmake_gcc/build",
+		"source" : "/Users/idowon/SimplicityStudio/v6_workspace/IMU_Pen/cmake_gcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

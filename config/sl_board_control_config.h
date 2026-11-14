@@ -51,7 +51,7 @@
 
 // <q SL_BOARD_ENABLE_SENSOR_IMU> Enable Inertial Measurement Unit
 // <i> Default: 0
-#define SL_BOARD_ENABLE_SENSOR_IMU              1
+#define SL_BOARD_ENABLE_SENSOR_IMU              0
 
 // <q SL_BOARD_ENABLE_SENSOR_MICROPHONE> Enable Microphone
 // <i> Default: 0
