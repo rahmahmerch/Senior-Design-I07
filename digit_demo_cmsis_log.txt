@@ -1,0 +1,219 @@
+--- running 200 test vectors ---
+v=  0 label=0 pred=0 conf=100% t=18152 us ok
+v=  1 label=0 pred=0 conf=100% t=18146 us ok
+v=  2 label=0 pred=0 conf=100% t=18147 us ok
+v=  3 label=0 pred=0 conf= 98% t=18175 us ok
+v=  4 label=0 pred=0 conf= 91% t=18223 us ok
+v=  5 label=0 pred=0 conf= 97% t=18152 us ok
+v=  6 label=0 pred=0 conf= 99% t=18181 us ok
+v=  7 label=0 pred=0 conf= 95% t=18175 us ok
+v=  8 label=0 pred=0 conf= 50% t=18720 us ok
+v=  9 label=0 pred=0 conf=100% t=18147 us ok
+v= 10 label=0 pred=0 conf=100% t=18160 us ok
+v= 11 label=0 pred=0 conf= 95% t=18162 us ok
+v= 12 label=0 pred=0 conf= 97% t=18160 us ok
+v= 13 label=0 pred=0 conf=100% t=18822 us ok
+v= 14 label=0 pred=0 conf=100% t=18176 us ok
+v= 15 label=0 pred=0 conf= 91% t=18175 us ok
+v= 16 label=0 pred=0 conf= 50% t=18720 us ok
+v= 17 label=0 pred=9 conf= 76% t=18161 us MISS
+v= 18 label=0 pred=0 conf= 98% t=18161 us ok
+v= 19 label=0 pred=0 conf=100% t=18161 us ok
+v= 20 label=1 pred=1 conf=100% t=18161 us ok
+v= 21 label=1 pred=1 conf=100% t=18823 us ok
+v= 22 label=1 pred=1 conf=100% t=18160 us ok
+v= 23 label=1 pred=1 conf=100% t=18162 us ok
+v= 24 label=1 pred=1 conf=100% t=18782 us ok
+v= 25 label=1 pred=1 conf=100% t=18177 us ok
+v= 26 label=1 pred=1 conf=100% t=18160 us ok
+v= 27 label=1 pred=1 conf=100% t=18161 us ok
+v= 28 label=1 pred=1 conf=100% t=18176 us ok
+v= 29 label=1 pred=1 conf=100% t=18904 us ok
+v= 30 label=1 pred=1 conf=100% t=18161 us ok
+v= 31 label=1 pred=1 conf=100% t=18176 us ok
+v= 32 label=1 pred=1 conf=100% t=18857 us ok
+v= 33 label=1 pred=1 conf=100% t=18161 us ok
+v= 34 label=1 pred=1 conf=100% t=18161 us ok
+v= 35 label=1 pred=1 conf=100% t=18160 us ok
+v= 36 label=1 pred=1 conf=100% t=18827 us ok
+v= 37 label=1 pred=1 conf=100% t=18162 us ok
+v= 38 label=1 pred=1 conf=100% t=18161 us ok
+v= 39 label=1 pred=1 conf=100% t=18162 us ok
+v= 40 label=2 pred=2 conf=100% t=18754 us ok
+v= 41 label=2 pred=2 conf= 91% t=18204 us ok
+v= 42 label=2 pred=2 conf= 85% t=18204 us ok
+v= 43 label=2 pred=2 conf= 99% t=18204 us ok
+v= 44 label=2 pred=2 conf=100% t=18202 us ok
+v= 45 label=2 pred=2 conf=100% t=18899 us ok
+v= 46 label=2 pred=2 conf= 98% t=18188 us ok
+v= 47 label=2 pred=2 conf= 99% t=18230 us ok
+v= 48 label=2 pred=2 conf=100% t=18904 us ok
+v= 49 label=2 pred=2 conf= 98% t=18190 us ok
+v= 50 label=2 pred=2 conf= 97% t=18189 us ok
+v= 51 label=2 pred=2 conf= 99% t=18204 us ok
+v= 52 label=2 pred=2 conf=100% t=18202 us ok
+v= 53 label=2 pred=2 conf= 98% t=18864 us ok
+v= 54 label=2 pred=2 conf= 94% t=18189 us ok
+v= 55 label=2 pred=2 conf=100% t=18217 us ok
+v= 56 label=2 pred=2 conf= 99% t=18794 us ok
+v= 57 label=2 pred=2 conf=100% t=18217 us ok
+v= 58 label=2 pred=2 conf= 97% t=18188 us ok
+v= 59 label=2 pred=5 conf= 90% t=18217 us MISS
+v= 60 label=3 pred=3 conf=100% t=18767 us ok
+v= 61 label=3 pred=3 conf=100% t=18148 us ok
+v= 62 label=3 pred=3 conf=100% t=18147 us ok
+v= 63 label=3 pred=3 conf=100% t=18161 us ok
+v= 64 label=3 pred=3 conf=100% t=18712 us ok
+v= 65 label=3 pred=3 conf= 98% t=18147 us ok
+v= 66 label=3 pred=3 conf=100% t=18147 us ok
+v= 67 label=3 pred=3 conf= 95% t=18147 us ok
+v= 68 label=3 pred=3 conf=100% t=18147 us ok
+v= 69 label=3 pred=3 conf= 85% t=18854 us ok
+v= 70 label=3 pred=3 conf=100% t=18147 us ok
+v= 71 label=3 pred=3 conf= 76% t=18147 us ok
+v= 72 label=3 pred=3 conf=100% t=18767 us ok
+v= 73 label=3 pred=3 conf=100% t=18161 us ok
+v= 74 label=3 pred=3 conf=100% t=18147 us ok
+v= 75 label=3 pred=3 conf=100% t=18161 us ok
+v= 76 label=3 pred=3 conf=100% t=18146 us ok
+v= 77 label=3 pred=3 conf= 91% t=18885 us ok
+v= 78 label=3 pred=3 conf=100% t=18175 us ok
+v= 79 label=3 pred=3 conf=100% t=18161 us ok
+v= 80 label=4 pred=4 conf=100% t=18859 us ok
+v= 81 label=4 pred=4 conf=100% t=18162 us ok
+v= 82 label=4 pred=4 conf=100% t=18161 us ok
+v= 83 label=4 pred=4 conf=100% t=18176 us ok
+v= 84 label=4 pred=4 conf=100% t=18520 us ok
+v= 85 label=4 pred=4 conf=100% t=18167 us ok
+v= 86 label=4 pred=4 conf=100% t=18161 us ok
+v= 87 label=4 pred=4 conf=100% t=18161 us ok
+v= 88 label=4 pred=4 conf=100% t=18836 us ok
+v= 89 label=4 pred=4 conf=100% t=18175 us ok
+v= 90 label=4 pred=4 conf=100% t=18176 us ok
+v= 91 label=4 pred=4 conf=100% t=18175 us ok
+v= 92 label=4 pred=4 conf=100% t=18213 us ok
+v= 93 label=4 pred=4 conf=100% t=18180 us ok
+v= 94 label=4 pred=4 conf=100% t=18162 us ok
+v= 95 label=4 pred=4 conf=100% t=18161 us ok
+v= 96 label=4 pred=4 conf=100% t=18878 us ok
+v= 97 label=4 pred=4 conf=100% t=18162 us ok
+v= 98 label=4 pred=4 conf=100% t=18162 us ok
+v= 99 label=4 pred=4 conf=100% t=18162 us ok
+v=100 label=5 pred=5 conf=100% t=18147 us ok
+v=101 label=5 pred=5 conf= 98% t=19004 us ok
+v=102 label=5 pred=5 conf= 99% t=18190 us ok
+v=103 label=5 pred=5 conf= 85% t=18188 us ok
+v=104 label=5 pred=5 conf=100% t=18949 us ok
+v=105 label=5 pred=5 conf= 64% t=18189 us ok
+v=106 label=5 pred=5 conf=100% t=18147 us ok
+v=107 label=5 pred=5 conf= 50% t=18185 us ok
+v=108 label=5 pred=5 conf=100% t=18863 us ok
+v=109 label=5 pred=5 conf= 85% t=18163 us ok
+v=110 label=5 pred=5 conf=100% t=18147 us ok
+v=111 label=5 pred=5 conf=100% t=18189 us ok
+v=112 label=5 pred=5 conf=100% t=18810 us ok
+v=113 label=5 pred=5 conf= 97% t=18174 us ok
+v=114 label=5 pred=5 conf= 98% t=18146 us ok
+v=115 label=5 pred=5 conf= 95% t=18204 us ok
+v=116 label=5 pred=5 conf=100% t=18174 us ok
+v=117 label=5 pred=5 conf= 95% t=18879 us ok
+v=118 label=5 pred=5 conf=100% t=18191 us ok
+v=119 label=5 pred=5 conf=100% t=18147 us ok
+v=120 label=6 pred=6 conf=100% t=18858 us ok
+v=121 label=6 pred=6 conf=100% t=18161 us ok
+v=122 label=6 pred=6 conf=100% t=18190 us ok
+v=123 label=6 pred=6 conf=100% t=18188 us ok
+v=124 label=6 pred=6 conf= 85% t=18880 us ok
+v=125 label=6 pred=3 conf= 76% t=18178 us MISS
+v=126 label=6 pred=6 conf=100% t=18175 us ok
+v=127 label=6 pred=6 conf=100% t=18162 us ok
+v=128 label=6 pred=6 conf=100% t=18892 us ok
+v=129 label=6 pred=6 conf=100% t=18175 us ok
+v=130 label=6 pred=6 conf= 99% t=18188 us ok
+v=131 label=6 pred=6 conf=100% t=18190 us ok
+v=132 label=6 pred=6 conf=100% t=18162 us ok
+v=133 label=6 pred=6 conf=100% t=18823 us ok
+v=134 label=6 pred=6 conf= 95% t=18206 us ok
+v=135 label=6 pred=6 conf=100% t=18162 us ok
+v=136 label=6 pred=6 conf=100% t=18810 us ok
+v=137 label=6 pred=6 conf=100% t=18189 us ok
+v=138 label=6 pred=3 conf= 97% t=18160 us MISS
+v=139 label=6 pred=6 conf=100% t=18161 us ok
+v=140 label=7 pred=7 conf=100% t=18191 us ok
+v=141 label=7 pred=7 conf=100% t=18737 us ok
+v=142 label=7 pred=7 conf=100% t=18217 us ok
+v=143 label=7 pred=7 conf=100% t=18218 us ok
+v=144 label=7 pred=7 conf=100% t=18755 us ok
+v=145 label=7 pred=7 conf=100% t=18205 us ok
+v=146 label=7 pred=7 conf=100% t=18203 us ok
+v=147 label=7 pred=7 conf=100% t=18189 us ok
+v=148 label=7 pred=7 conf=100% t=18202 us ok
+v=149 label=7 pred=7 conf=100% t=18942 us ok
+v=150 label=7 pred=7 conf=100% t=18191 us ok
+v=151 label=7 pred=7 conf=100% t=18204 us ok
+v=152 label=7 pred=7 conf=100% t=18859 us ok
+v=153 label=7 pred=7 conf=100% t=18205 us ok
+v=154 label=7 pred=7 conf=100% t=18203 us ok
+v=155 label=7 pred=7 conf=100% t=18188 us ok
+v=156 label=7 pred=7 conf=100% t=18218 us ok
+v=157 label=7 pred=7 conf=100% t=18207 us ok
+v=158 label=7 pred=7 conf=100% t=18205 us ok
+v=159 label=7 pred=7 conf=100% t=18191 us ok
+v=160 label=8 pred=8 conf=100% t=18844 us ok
+v=161 label=8 pred=8 conf= 99% t=18147 us ok
+v=162 label=8 pred=8 conf=100% t=18160 us ok
+v=163 label=8 pred=8 conf=100% t=18147 us ok
+v=164 label=8 pred=8 conf=100% t=18147 us ok
+v=165 label=8 pred=8 conf= 98% t=18870 us ok
+v=166 label=8 pred=8 conf=100% t=18148 us ok
+v=167 label=8 pred=8 conf=100% t=18147 us ok
+v=168 label=8 pred=8 conf=100% t=18726 us ok
+v=169 label=8 pred=8 conf=100% t=18148 us ok
+v=170 label=8 pred=8 conf= 98% t=18189 us ok
+v=171 label=8 pred=8 conf=100% t=18147 us ok
+v=172 label=8 pred=8 conf=100% t=18147 us ok
+v=173 label=8 pred=8 conf= 99% t=18822 us ok
+v=174 label=8 pred=8 conf=100% t=18148 us ok
+v=175 label=8 pred=8 conf=100% t=18146 us ok
+v=176 label=8 pred=8 conf=100% t=18795 us ok
+v=177 label=8 pred=8 conf=100% t=18147 us ok
+v=178 label=8 pred=8 conf=100% t=18146 us ok
+v=179 label=8 pred=8 conf=100% t=18147 us ok
+v=180 label=9 pred=9 conf= 97% t=18161 us ok
+v=181 label=9 pred=5 conf= 91% t=18941 us MISS
+v=182 label=9 pred=9 conf=100% t=18161 us ok
+v=183 label=9 pred=9 conf=100% t=18176 us ok
+v=184 label=9 pred=9 conf=100% t=18783 us ok
+v=185 label=9 pred=9 conf= 99% t=18176 us ok
+v=186 label=9 pred=9 conf= 99% t=18176 us ok
+v=187 label=9 pred=9 conf=100% t=18161 us ok
+v=188 label=9 pred=9 conf= 97% t=18161 us ok
+v=189 label=9 pred=9 conf= 76% t=18708 us ok
+v=190 label=9 pred=9 conf=100% t=18174 us ok
+v=191 label=9 pred=9 conf= 97% t=18175 us ok
+v=192 label=9 pred=9 conf=100% t=18920 us ok
+v=193 label=9 pred=9 conf= 99% t=18188 us ok
+v=194 label=9 pred=9 conf=100% t=18175 us ok
+v=195 label=9 pred=9 conf=100% t=18174 us ok
+v=196 label=9 pred=0 conf= 76% t=18176 us MISS
+v=197 label=9 pred=9 conf= 76% t=18864 us ok
+v=198 label=9 pred=9 conf=100% t=18175 us ok
+v=199 label=9 pred=9 conf= 64% t=18147 us ok
+--- summary (CPU CMSIS-NN kernels) ---
+accuracy: 194/200 = 97.0%
+inference time us: min 18146  avg 18323  max 19004
+inference cycles:  min 707724  avg 714632  max 741167 (core 39000000 Hz)
+per class correct: 0:19/20 1:20/20 2:19/20 3:20/20 4:20/20 5:20/20 6:18/20 7:20/20 8:20/20 9:18/20
+confusion (rows=true, cols=pred):
+  0 | 19  0  0  0  0  0  0  0  0  1
+  1 |  0 20  0  0  0  0  0  0  0  0
+  2 |  0  0 19  0  0  1  0  0  0  0
+  3 |  0  0  0 20  0  0  0  0  0  0
+  4 |  0  0  0  0 20  0  0  0  0  0
+  5 |  0  0  0  0  0 20  0  0  0  0
+  6 |  0  0  0  2  0  0 18  0  0  0
+  7 |  0  0  0  0  0  0  0 20  0  0
+  8 |  0  0  0  0  0  0  0  0 20  0
+  9 |  1  0  0  0  0  1  0  0  0 18
+pass wall time: 5206 ms (includes UART printing)
+--- end ---

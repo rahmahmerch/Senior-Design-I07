@@ -21,6 +21,7 @@ readme:
 - path: readme.md
 source:
 - path: app.c
+- path: digit_demo.cc
 tag:
 - hwfilter:device:device_supports_bluetooth
 - hwfilter:device:device_series_2
@@ -28,13 +29,27 @@ include:
 - path: .
   file_list:
   - path: app.h
+  - path: digit_demo.h
+  - path: test_vectors.h
 sdk:
   vendor: silabs
   id: simplicity_sdk
   version: 2026.6.2
-toolchain_settings: [
-  ]
+toolchain_settings:
+- value: -mfp16-format=ieee
+  option: gcc_compiler_option
 component:
+- package: aiml
+  instance:
+  - digit_cnn
+  vendor: silabs
+  id: ml_model
+- package: aiml
+  vendor: silabs
+  id: tensorflow_lite_micro_accelerated_kernels
+- package: simplicity_sdk
+  vendor: silabs
+  id: cpp_support
 - package: simplicity_sdk
   vendor: silabs
   id: EFR32MG26B510F3200IM68
@@ -110,6 +125,7 @@ component:
 - package: simplicity_sdk
   instance:
   - led0
+  - led1
   vendor: silabs
   id: simple_led
 - package: simplicity_sdk
@@ -691,4 +707,13 @@ ui_hints:
   - path: config/btconf/gatt_configuration.btconf
   - path: readme.md
     focus: true
-
+sdk_extension:
+- vendor: silabs
+  id: aiml
+  version: 3.0.2
+config_file:
+- path: config/tflite/digit_cnn.tflite
+  directory: tflite
+define:
+- name: DIGIT_DEMO_KERNELS
+  value: '"MVP accelerated"'

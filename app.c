@@ -40,6 +40,7 @@
 #include "stdio.h"
 #include "stdbool.h"
 #include "gatt_db.h"
+#include "digit_demo.h"
 
 // The advertising set handle allocated from Bluetooth stack.
 static uint8_t advertising_set_handle = 0xff;
@@ -56,6 +57,7 @@ void sl_button_on_change(const sl_button_t *handle)
   }
   if (handle == &sl_button_btn0) {
     streaming = true;    // START
+    digit_demo_request_run();   // also kick off the MVP digit demo pass
   } else if (handle == &sl_button_btn1) {
     streaming = false;   // STOP
   }
@@ -89,14 +91,20 @@ void app_init(void)
 
   // If it survives sl_imu_init(), turn LED0 OFF as proof
   sl_led_turn_off(&sl_led_led0);
+
+  // 6. Load the digit CNN (MVP accelerator demo). Prints model info.
+  digit_demo_init();
 }
 
 // Application Process Action.
 void app_process_action(void)
 {
+  // MVP digit demo: runs a few test vectors per call once BTN0 was pressed.
+  digit_demo_process();
+
   // Wakes up on advertising tick (~100ms) or loop.
-  // 10 ticks = 1 second.
-  if (++loop_counter >= 10) {
+  // 10 ticks = 1 second. Heartbeat is paused while the demo prints.
+  if (!digit_demo_is_running() && ++loop_counter >= 10) {
     loop_counter = 0;
     const char test_msg[] = "UART_OK\r\n";
     sl_status_t write_status = sl_iostream_write(sl_iostream_vcom_handle, test_msg, sizeof(test_msg) - 1);
